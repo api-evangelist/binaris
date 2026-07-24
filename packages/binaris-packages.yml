@@ -1,0 +1,42 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.npmjs.com/package/binaris
+notes: >-
+  Binaris shipped a first-party Node.js SDK/CLI ("binaris", providing the `bn`
+  command) plus a scoped @binaris runtime package and an official Docker image of
+  the CLI. The FaaS product itself is now defunct (binaris.io / binaris.com no
+  longer serve the platform), but the published client artifacts remain on the
+  public registries and are captured here verbatim. Registries probed with no
+  first-party hit: PyPI, Maven Central, NuGet, pkg.go.dev, RubyGems, Packagist,
+  crates.io.
+packages:
+  - language: javascript
+    registry: npm
+    name: binaris
+    url: https://www.npmjs.com/package/binaris
+    install: npm install -g binaris
+    description: Binaris SDK & CLI (provides the `bn` command)
+    latest: 7.0.0
+    versions: 48
+    first_published: '2017-09-14'
+    last_published: '2022-04-11'
+    license: MIT
+    bin: bn
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@binaris/shift-fetch-runtime"
+    url: https://www.npmjs.com/package/@binaris/shift-fetch-runtime
+    install: npm install @binaris/shift-fetch-runtime
+    description: Runtime for Binaris "Shift" (later Binaris programming model)
+    latest: 0.0.4
+    first_published: '2019-06-20'
+    last_published: '2022-04-04'
+    official: true
+  - language: docker
+    registry: dockerhub
+    name: binaris/bn
+    url: https://hub.docker.com/r/binaris/bn
+    install: docker run --rm -v $(pwd):/src -e BINARIS_API_KEY binaris/bn --help
+    description: Dockerized Binaris CLI (`bn`)
+    official: true

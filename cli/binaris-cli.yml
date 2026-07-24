@@ -1,0 +1,28 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.npmjs.com/package/binaris
+name: bn
+description: >-
+  The Binaris CLI (`bn`) is the first-party developer tool for the Binaris
+  Function-as-a-Service platform. It scaffolds, deploys, invokes, and manages
+  Node.js functions on Binaris cloud. Distributed as the npm package `binaris`
+  and as the Docker image `binaris/bn`. Authentication is via a Binaris API key
+  supplied as the `BINARIS_API_KEY` environment variable.
+package: packages/binaris-packages.yml
+install:
+  - method: npm
+    command: npm install -g binaris
+  - method: docker
+    command: docker run --rm -v $(pwd):/src -e BINARIS_API_KEY binaris/bn --help
+auth:
+  style: api-key
+  env: BINARIS_API_KEY
+commands:
+  - name: create
+    summary: Generate a template function (e.g. `bn create node8 hellofunc`)
+  - name: deploy
+    summary: Deploy a function to the Binaris cloud (`bn deploy hellofunc`)
+  - name: invoke
+    summary: Invoke a deployed function over HTTPS (`bn invoke hellofunc`)
+  - name: logs
+    summary: Fetch logs for a function (`bn logs hellofunc`)

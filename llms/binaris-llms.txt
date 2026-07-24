@@ -1,0 +1,22 @@
+# Binaris
+
+> Binaris was a fast, low-latency Function-as-a-Service (FaaS) platform for running
+> production Node.js workloads. Founded in 2017 and backed by Lightspeed Venture
+> Partners, its developer surface was the `bn` CLI/SDK. The hosted platform
+> (binaris.io / binaris.com) is no longer in service; the client artifacts below
+> remain published on the public registries and GitHub.
+
+## Packages
+- [binaris (npm SDK & CLI)](https://www.npmjs.com/package/binaris): first-party Node.js SDK and `bn` CLI
+- [@binaris/shift-fetch-runtime (npm)](https://www.npmjs.com/package/@binaris/shift-fetch-runtime): runtime for Binaris "Shift"
+- [binaris/bn (Docker Hub)](https://hub.docker.com/r/binaris/bn): dockerized Binaris CLI
+
+## Source
+- [GitHub organization](https://github.com/binaris): 42 public repositories (CLI, examples, FaaS tooling)
+- [binaris (CLI repo)](https://github.com/binaris/binaris): Binaris Function-as-a-Service CLI
+- [faasmark](https://github.com/binaris/faasmark): benchmark Functions-as-a-Service platforms
+- [react-serverless](https://github.com/binaris/react-serverless): full-stack serverless tutorial
+
+## Artifacts
+- [Packages](https://raw.githubusercontent.com/api-evangelist/binaris/refs/heads/main/packages/binaris-packages.yml)
+- [CLI](https://raw.githubusercontent.com/api-evangelist/binaris/refs/heads/main/cli/binaris-cli.yml)
