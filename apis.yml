@@ -11,6 +11,17 @@ description: >-
   platform at binaris.io / binaris.com is no longer in service, but the first-party
   client packages and a 42-repository GitHub organization remain publicly available and
   are captured here.
+deliveryModel:
+  model: library
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Library · distributed through package registries, no callable service
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
