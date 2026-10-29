@@ -64,6 +64,34 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Binaris is a company surfaced as a portfolio company of lightspeed-venture-partners and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-Backed by: lightspeed-venture-partners
+Binaris was a fast, low-latency Function-as-a-Service (FaaS) platform for running production Node.js workloads in the cloud. Founded in 2017 and backed by Lightspeed Venture Partners, its developer surface centered on the `bn` command-line tool and Node.js SDK (published to npm as `binaris` and to Docker Hub as `binaris/bn`), which let developers scaffold, deploy, invoke, and inspect serverless functions in seconds. Authentication was via a Binaris API key (`BINARIS_API_KEY`). The company later explored a "Shift" programming model (`@binaris/shift-fetch-runtime`). The hosted platform at binaris.io / binaris.com is no longer in service, but the first-party client packages and a 42-repository GitHub organization remain publicly available and are captured here.
+
+**Areas:** Company · Serverless · Functions as a Service · Function-as-a-Service · Compute · Cloud · Node.js · Developer Tools · Defunct
+
+## Binaris on APIs.io (historical record)
+
+Everything profiled for Binaris is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/binaris/](https://apis.io/providers/binaris/)** — or go straight to one of the APIs or properties below.
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [GitHub](https://github.com/binaris)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Binaris: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/binaris/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
